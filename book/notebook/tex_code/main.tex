@@ -1,0 +1,63 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[8pt]{article}
+\usepackage[a4paper]{geometry}
+\usepackage[english]{babel}
+\usepackage{amssymb,amsthm,amsmath}
+%\usepackage{xltxtra}
+%\usepackage{stmaryrd}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{color}
+\lstset{
+	extendedchars=true,
+	showstringspaces=false,
+	escapeinside=``,
+	keywordstyle=\color{blue},
+	commentstyle=\color[rgb]{0.133,0.545,0.133},
+	columns=flexible,
+	language=C++,
+	tabsize=2,
+	basicstyle=\normalsize\selectfont\ttfamily,
+	numbers=left,
+	frame=lines,
+	breaklines=true
+}
+\geometry{
+	left=15mm,
+	right=7mm,
+	top=7mm,
+	bottom=15mm
+}
+\usepackage{multicol}
+\setlength{\columnsep}{1cm}
+
+\title{SWERC NoteBook}
+\author{SaintGermainDesPrés : Mathilde Bonin, Eyal Cohen, Hugo Demaret}
+\date\today
+
+\begin{document}
+    \maketitle
+    \section{Parcours de graphes}
+        \subsection{Implémentation des graphes}
+            \subsubsection{C/C++}
+            \subsubsection{Python}
+        \subsection{DFS - Depth First Search}
+        \subsection{BFS - Breadth First Search}
+        \subsection{Topological Sort}
+        \subsection{Composantes connexes}
+        \subsection{Composantes bi-connexe}
+        \subsection{Composantes fortement connexe}
+        \subsection{2-SAT}
+        \subsection{Postier Chinois}
+        \subsection{Chemin eulérien}
+        \subsection{Chemin le plus court}
+            \subsubsection{Poids positif ou nul - Dijkstra}
+            \subsubsection{Poids arbitraire - Bellman-Ford}
+            \subsubsection{Floyd-Warshall}
+    \section{Points et polygones}
+        \subsection{Enveloppe convexe}
+        \subsection{Aire d'un polygone}
+        \subsection{Paire de points les plus proches}
+\end{document}
