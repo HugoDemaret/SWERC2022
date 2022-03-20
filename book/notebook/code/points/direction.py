@@ -1,11 +1,3 @@
-def direction(p1, p2, p3):
-	return  cross_product(p3.subtract(p1), p2.subtract(p1))
-# checks if p3 makes left turn at p2
-def left(p1, p2, p3):
-	return direction(p1, p2, p3) < 0
-# checks if p3 makes right turn at p2
-def right(p1, p2, p3):
-	return direction(p1, p2, p3) > 0
-# checks if p1, p2 and p3 are collinear
-def collinear(p1, p2, p3):
-	return direction(p1, p2, p3) == 0
+def left_turn(a,b,c):
+	return (a[0]-c[0]) * (b[1]-c[1]) - (a[1]-c[1]) * (b[0]-c[0]) > 0
+	# If floats are used, instead of 0 test if in [0-10E-7,0+10E-7]

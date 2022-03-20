@@ -1,2 +1,2 @@
 def cross_product(p1, p2):
-	return p1.x * p2.y - p2.x * p1.y
+	return p1[0] * p2[1] - p2[0] * p1[1]

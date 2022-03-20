@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.9.27)  19 MAR 2022 19:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.9.27)  20 MAR 2022 15:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -342,20 +342,20 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 41.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/Users/hugodemaret/cours/SWERC2022/book/notebook/tex_code/../code/graphes/dfs.py) (/Users/hugodemaret/cours/SWERC2022/book/notebook/tex_code/../code/graphes/bfs.py) [1
 
-{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (/Users/hugodemaret/cours/SWERC2022/book/notebook/tex_code/../code/points/point.py) (/Users/hugodemaret/cours/SWERC2022/book/notebook/tex_code/../code/points/crossproduct.py) (/Users/hugodemaret/cours/SWERC2022/book/notebook/tex_code/../code/points/direction.py) (/Users/hugodemaret/cours/SWERC2022/book/notebook/tex_code/../code/points/jarvismarch.py [2]) (/Users/hugodemaret/cours/SWERC2022/book/notebook/tex_code/../code/calculs/pgcd.py) (/Users/hugodemaret/cours/SWERC2022/book/notebook/tex_code/../code/calculs/bezout.py) (/Users/hugodemaret/cours/SWERC2022/book/notebook/tex_code/../code/calculs/binom.py) [3] (/Users/hugodemaret/cours/SWERC2022/book/notebook/tex_code/main.aux) ) 
+{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (/Users/hugodemaret/cours/SWERC2022/book/notebook/tex_code/../code/points/point.py) (/Users/hugodemaret/cours/SWERC2022/book/notebook/tex_code/../code/points/crossproduct.py) (/Users/hugodemaret/cours/SWERC2022/book/notebook/tex_code/../code/points/direction.py) (/Users/hugodemaret/cours/SWERC2022/book/notebook/tex_code/../code/points/jarvismarch.py) [2] (/Users/hugodemaret/cours/SWERC2022/book/notebook/tex_code/../code/calculs/pgcd.py) (/Users/hugodemaret/cours/SWERC2022/book/notebook/tex_code/../code/calculs/bezout.py) (/Users/hugodemaret/cours/SWERC2022/book/notebook/tex_code/../code/calculs/binom.py) [3] (/Users/hugodemaret/cours/SWERC2022/book/notebook/tex_code/main.aux) ) 
 Here is how much of TeX's memory you used:
- 5711 strings out of 478994
- 78715 string characters out of 5858184
- 746957 words of memory out of 5000000
- 23109 multiletter control sequences out of 15000+600000
- 409762 words of font info for 51 fonts, out of 8000000 for 9000
+ 5709 strings out of 478994
+ 78681 string characters out of 5858184
+ 684957 words of memory out of 5000000
+ 23105 multiletter control sequences out of 15000+600000
+ 411461 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,7n,74p,279b,1687s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on /Users/hugodemaret/cours/SWERC2022/book/notebook/tex_code/main.pdf (3 pages, 85386 bytes).
+ 68i,7n,74p,279b,1272s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on /Users/hugodemaret/cours/SWERC2022/book/notebook/tex_code/main.pdf (3 pages, 101792 bytes).
 PDF statistics:
- 38 PDF objects out of 1000 (max. 8388607)
- 26 compressed objects within 1 object stream
+ 46 PDF objects out of 1000 (max. 8388607)
+ 32 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
