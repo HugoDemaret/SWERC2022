@@ -41,10 +41,9 @@
     \maketitle
     \section{Configuration}
         \subsection{C/C++}
+    \section{Chaînes de caractères}
+    \section{Séquences}
     \section{Parcours de graphes}
-        \subsection{Implémentation des graphes}
-            \subsubsection{C/C++}
-            \subsubsection{Python}
         \subsection{DFS - Depth First Search}
         {\scriptsize\lstinputlisting{../code/graphes/dfs.py}}
         \subsection{BFS - Breadth First Search}
@@ -72,10 +71,21 @@
             Complexité : $\mathcal{O}(n \log(n))$
             {\scriptsize\lstinputlisting{../code/points/jarvismarch.py}}
         \subsection{Aire d'un polygone}
+        \textit{Uniquement pour les polygones simples. Réduire à des composantes simples sinon.}
+        $A = \frac{1}{2} \sum_{i=0}^{n-1}\left(x_{i}x_{i+1} - x_{i+1}y_{i}\right)$
+        {\scriptsize\lstinputlisting{../code/points/polygonearea.py}}
+        \subsection{Points entiers dans un polygone}
+            \subsubsection{Sur le contour}
+            \subsubsection{Dans le polygone}
+                Théorème de Pick :
+                $P = n_{i} + \frac{n_{b}}{2}-1$
         \subsection{Paire de points les plus proches}
     \section{Ensembles}
         \subsection{Rendu de monnaie}
+        Problème NP-Complet.
         \subsection{Sac à dos}
+        Problème NP-Complet.
+        {\scriptsize\lstinputlisting{../code/ensembles/knapsack.py}}
         \subsection{k-somme}
     \section{Calculs}
         \subsection{PGCD}
