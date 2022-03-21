@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1647904309 "/home/hugodemaret/projects/SWERC2022/book/notebook/tex_code/main.tex" "main.pdf" "main" 1647904309
+["pdflatex"] 1647904385 "/home/hugodemaret/projects/SWERC2022/book/notebook/tex_code/main.tex" "main.pdf" "main" 1647904385
   "../code/calculs/bezout.py" 1647899998 166 2f072a668b5e64d0c20c133afd49037e ""
   "../code/calculs/binom.py" 1647899998 152 415a743032e7f8570dfaf328b0b78247 ""
   "../code/calculs/pgcd.py" 1647899998 54 1b3eaea038a7efacca49f12df9a0dcae ""
@@ -13,7 +13,7 @@
   "../code/points/point.py" 1647899998 13 912c1d5bffb78ddcc98a23b4af0790fb ""
   "../code/points/polygonearea.py" 1647899998 120 939068254b3ddabed68e05e20f1488c7 ""
   "../image/cover_image.png" 1647900155 56779 65d8d46a18f9bb8478ec06039c82f3d9 ""
-  "/home/hugodemaret/projects/SWERC2022/book/notebook/tex_code/main.tex" 1647904309 4884 10e458f327dffe979cd771a06f7fa745 ""
+  "/home/hugodemaret/projects/SWERC2022/book/notebook/tex_code/main.tex" 1647904384 4862 e14d385b4d390b74e2abbd88702e9896 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1640600964 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1640600964 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1640600964 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -144,8 +144,8 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1640600964 39911 2da6c67557ec033436fe5418a70a8a61 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1641566817 4240959 a62b166954e270972a866c6bf49abd0b ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1641566813 2920111 ffd23b2a6d2b7396a598d828c50a1144 ""
-  "main.aux" 1647904309 5401 3c1eadde7d95a45085aa2ed1e788e569 "pdflatex"
-  "main.tex" 1647904309 4884 10e458f327dffe979cd771a06f7fa745 ""
+  "main.aux" 1647904385 5401 e57d9c725b8df3b9bfbdfd1b6184e1e3 "pdflatex"
+  "main.tex" 1647904384 4862 e14d385b4d390b74e2abbd88702e9896 ""
   (generated)
   "main.aux"
   "main.log"
