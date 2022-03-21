@@ -7,11 +7,14 @@
 \usepackage{amssymb,amsthm,amsmath}
 %\usepackage{xltxtra}
 %\usepackage{stmaryrd}
+\usepackage{tikz}
 \usepackage{graphicx}
 \usepackage{listings}
 \usepackage{color}
 
 \graphicspath{ {./images/} }
+
+\definecolor{universityred}{RGB}{147,25,50}
 
 \lstset{
 	extendedchars=true,
@@ -60,9 +63,14 @@
 
         \LARGE
         \textbf{Ensemble d'algorithmes et techniques de programmation}
+        \vspace*{1.5cm}
+
+        
+        \begin{tikzpicture}
+            \filldraw[fill=universityred, draw=black](0,0) ellipse (.5cm and .75cm);
+            \draw (0,-3) .. controls (,-2) and (-1.,-2) .. (0,-0.75);
+        \end{tikzpicture}
         \vfill
-
-
         \includegraphics[scale=0.05]{../image/cover_image.png}
         \Large
 
