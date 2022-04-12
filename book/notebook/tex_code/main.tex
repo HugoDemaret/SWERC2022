@@ -91,8 +91,17 @@
 \end{titlepage}
     \section{Configuration}
         \subsection{C/C++}
+        
     \section{Chaînes de caractères}
     \section{Séquences}
+        \subsection{Anagramme}
+        {\scriptsize\lstinputlisting{../code/string/anagramme.py}}
+        \subsection{Distance de Levenshtein}
+        {\scriptsize\lstinputlisting{../code/string/levenshtein.py}}
+        \subsection{Plus grand facteur commun}
+        {\scriptsize\lstinputlisting{../code/string/longest_common_subsequence.py}}
+        \subsection{Rabin-Karp | Recherche d'un pattern}
+        {\scriptsize\lstinputlisting{../code/string/rabin_karp.py}}
     \section{Parcours de graphes}
         \subsection{DFS - Depth First Search}
         {\scriptsize\lstinputlisting{../code/graphes/dfs.py}}
@@ -147,6 +156,10 @@
         Problème NP-Complet.
         {\scriptsize\lstinputlisting{../code/ensembles/knapsack.py}}
         \subsection{k-somme}
+        \subsection{Points les plus proches}
+        {\scriptsize\lstinputlisting{../code/ensembles/closest_points.py}}
+        \subsection{Valeurs les plus proches}
+        {\scriptsize\lstinputlisting{../code/ensembles/closest_values.py}}
     \section{Calculs}
         \subsection{PGCD}
         {\scriptsize\lstinputlisting{../code/calculs/pgcd.py}}
@@ -205,7 +218,22 @@
             \end{itemize}
         \subsection{Probabilités et Statistiques}
             \subsubsection{Lois de probabilités}
+            Discrètes :
+                \begin{itemize}
+                    %$\mathbb{P}(X=k) = , \quad \mathbb{E}[X] = , \quad \mathbb{V}[X] = $
+                    \item Poisson : $\mathbb{P} (X=k) = e^{-\lambda}\frac{\lambda^k}{k!}, \quad \mathbb{E}[X]=\lambda, \quad \mathbb{V}[X]=\lambda$
+                    \item Binomiale : $\mathbb{P}(X=k) = \binom{n}{k} p^k (1-p)^{n-k}, \quad \mathbb{E}[X] = np, \quad \mathbb{V}[X] = np(1-p)$
+                    \item Géométrique : $\mathbb{P}(X=k) = (1-p)^{k-1}p, \quad \mathbb{E}[X] = \frac{1}{p}, \quad \mathbb{V}[X] = \frac{1-p}{p^{2}}$
+                    \item Uniforme : $\mathbb{P}(X=k) = \frac{1}{n}, \quad \mathbb{E}[X] = \frac{1}{n}  \sum^{n}_{k=1} x_k$
+                \end{itemize}
             \subsubsection{Techniques statistiques}
+            Théorème de la limite centrale : \\
+            Soit $X_1,X_2,...$ une suite de variable aléatoires réelles définies sur le même espace de probabilités, i.i.d et suivant la même loi $\mathcal{L}$.
+            De plus, l'espérance $\mu$ et l'écart-type $\sigma$ de $\mathcal{L}$ existent et soient finis avec $\sigma \neq 0$.\\
+            Soit la somme $S_n = X_1 + X_2 + ... + X_n$\\
+            Alors l'espérance de $S_n$ est $n\mu$ et l'écart-type est $\sigma \sqrt{n}$\\
+            Quand $n$ est assez grand, la Loi Normale $\mathcal{N}(n\mu,n\sigma^{2})$ est une bonne approximation de $S_n$\\
+            On pose $\overline{X_n} = \frac{S_n}{n}$ et $Z_n = \frac{S_n-n\mu}{\sigma \sqrt{n}} = \frac{\overline{X_n}-\mu}{\sigma / \sqrt{n}}$
     \section{Techniques de programmation}
         \subsection{Programmation dynamique}
         Résoudre le problème en le divisant en sous-problèmes, résoudre les sous-problèmes, stocker les résultats

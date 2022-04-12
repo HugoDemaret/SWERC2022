@@ -1,9 +1,11 @@
 # Fdb version 3
-["pdflatex"] 1649792835 "/home/hugodemaret/projects/SWERC2022/book/notebook/tex_code/main.tex" "main.pdf" "main" 1649792836
+["pdflatex"] 1649801453 "/home/hugodemaret/projects/SWERC2022/book/notebook/tex_code/main.tex" "main.pdf" "main" 1649801453
   "../code/calculs/bezout.py" 1647899998 166 2f072a668b5e64d0c20c133afd49037e ""
   "../code/calculs/binom.py" 1649523737 231 19e79dab94f21551fc04632a38075db7 ""
   "../code/calculs/inverse.py" 1649523539 42 d0163dc18ea8954da5ac890b57778228 ""
   "../code/calculs/pgcd.py" 1647899998 54 1b3eaea038a7efacca49f12df9a0dcae ""
+  "../code/ensembles/closest_points.py" 1649792120 1558 c9105a4a9a936b17bd88352ed1d6706a ""
+  "../code/ensembles/closest_values.py" 1649792255 167 b081b5b0cd84cf9877c30246eb612c2a ""
   "../code/ensembles/coin.py" 1647899998 151 0cf5c42b7c40d6467791679c4b618045 ""
   "../code/ensembles/knapsack.py" 1647899998 764 cebc141bfcbb0ca1049e946c58841c72 ""
   "../code/graphes/bellman_ford.py" 1649524380 762 ddc9596846f9082c7b7b9047453ad586 ""
@@ -23,8 +25,12 @@
   "../code/points/point.py" 1647899998 13 912c1d5bffb78ddcc98a23b4af0790fb ""
   "../code/points/polygonearea.py" 1647899998 120 939068254b3ddabed68e05e20f1488c7 ""
   "../code/points/simple_polygon.py" 1649524588 1330 aa063a2c3fca9c8c12caecb2a39795d9 ""
+  "../code/string/anagramme.py" 1649523042 340 39c5a524aea17accaf3a5bba6e104439 ""
+  "../code/string/levenshtein.py" 1649523042 265 e470a61472e96bfa0569904d9f15ae29 ""
+  "../code/string/longest_common_subsequence.py" 1649523042 584 2a5f01f7f582db6700a8a824a5652973 ""
+  "../code/string/rabin_karp.py" 1649800822 2327 2c445abc40e6cbd5da980121b75a015c ""
   "../image/cover_image.png" 1647900155 56779 65d8d46a18f9bb8478ec06039c82f3d9 ""
-  "/home/hugodemaret/projects/SWERC2022/book/notebook/tex_code/main.tex" 1649792835 9770 a2410d93b683da0e2680821225e0d211 ""
+  "/home/hugodemaret/projects/SWERC2022/book/notebook/tex_code/main.tex" 1649801452 12000 d68169e80f0f7e3efb377c9e8b470ab8 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1640600964 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1640600964 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1640600964 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -161,8 +167,8 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1640600964 39911 2da6c67557ec033436fe5418a70a8a61 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1641566817 4240959 a62b166954e270972a866c6bf49abd0b ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1641566813 2920111 ffd23b2a6d2b7396a598d828c50a1144 ""
-  "main.aux" 1649792835 8931 8a76ab9925450a5e2a702d4ab3c16188 "pdflatex"
-  "main.tex" 1649792835 9770 a2410d93b683da0e2680821225e0d211 ""
+  "main.aux" 1649801453 10388 813887dd672221039d2bcadce476e256 "pdflatex"
+  "main.tex" 1649801452 12000 d68169e80f0f7e3efb377c9e8b470ab8 ""
   (generated)
   "main.aux"
   "main.log"
