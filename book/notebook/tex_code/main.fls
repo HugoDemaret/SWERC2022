@@ -517,6 +517,7 @@ OUTPUT main.pdf
 INPUT ../image/cover_image.png
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
@@ -569,6 +570,12 @@ INPUT ../code/graphes/topological_sort.py
 INPUT ../code/graphes/topological_sort.py
 INPUT ../code/graphes/topological_sort.py
 INPUT ../code/graphes/topological_sort.py
+INPUT ../code/graphes/connected_components.py
+INPUT ../code/graphes/connected_components.py
+INPUT ../code/graphes/connected_components.py
+INPUT ../code/graphes/connected_components.py
+INPUT ../code/graphes/connected_components.py
+INPUT ../code/graphes/connected_components.py
 INPUT ../code/graphes/bi_connected_components.py
 INPUT ../code/graphes/bi_connected_components.py
 INPUT ../code/graphes/bi_connected_components.py
@@ -718,6 +725,12 @@ INPUT ../code/calculs/inverse.py
 INPUT ../code/calculs/inverse.py
 INPUT ../code/calculs/inverse.py
 INPUT ../code/calculs/inverse.py
+INPUT ../code/calculs/prime.py
+INPUT ../code/calculs/prime.py
+INPUT ../code/calculs/prime.py
+INPUT ../code/calculs/prime.py
+INPUT ../code/calculs/prime.py
+INPUT ../code/calculs/prime.py
 INPUT /usr/share/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm
 INPUT main.aux
 INPUT /usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc

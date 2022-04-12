@@ -1,9 +1,10 @@
 # Fdb version 3
-["pdflatex"] 1649803770 "/home/hugodemaret/projects/SWERC2022/book/notebook/tex_code/main.tex" "main.pdf" "main" 1649803771
+["pdflatex"] 1649806775 "/home/hugodemaret/projects/SWERC2022/book/notebook/tex_code/main.tex" "main.pdf" "main" 1649806775
   "../code/calculs/bezout.py" 1647899998 166 2f072a668b5e64d0c20c133afd49037e ""
   "../code/calculs/binom.py" 1649523737 231 19e79dab94f21551fc04632a38075db7 ""
   "../code/calculs/inverse.py" 1649523539 42 d0163dc18ea8954da5ac890b57778228 ""
   "../code/calculs/pgcd.py" 1647899998 54 1b3eaea038a7efacca49f12df9a0dcae ""
+  "../code/calculs/prime.py" 1649805010 982 b758c593133d974466c22f4ebd94e7fc ""
   "../code/cpp/vector.cpp" 1649803185 359 bb17a02ef43ca727c3906cbd6d224c24 ""
   "../code/ensembles/closest_points.py" 1649792120 1558 c9105a4a9a936b17bd88352ed1d6706a ""
   "../code/ensembles/closest_values.py" 1649792255 167 b081b5b0cd84cf9877c30246eb612c2a ""
@@ -12,6 +13,7 @@
   "../code/graphes/bellman_ford.py" 1649524380 762 ddc9596846f9082c7b7b9047453ad586 ""
   "../code/graphes/bfs.py" 1647899998 514 54034271a331333f028eb6deb6aea483 ""
   "../code/graphes/bi_connected_components.py" 1649525018 2163 5e3b778693a3b7c91034462667467544 ""
+  "../code/graphes/connected_components.py" 1649805943 767 908671c38d01dce37f06612db853e05f ""
   "../code/graphes/dfs.py" 1647899998 349 68e1c75c3d66a79d3a9d74063d8cdd3d ""
   "../code/graphes/dijkstra.py" 1649524143 1746 e93921019002686b7422730c6225e880 ""
   "../code/graphes/eulerian_tour_directed.py" 1649523042 397 1e416981bf1a5a7ddc18136e8c542ca2 ""
@@ -31,7 +33,7 @@
   "../code/string/longest_common_subsequence.py" 1649523042 584 2a5f01f7f582db6700a8a824a5652973 ""
   "../code/string/rabin_karp.py" 1649800822 2327 2c445abc40e6cbd5da980121b75a015c ""
   "../image/cover_image.png" 1647900155 56779 65d8d46a18f9bb8478ec06039c82f3d9 ""
-  "/home/hugodemaret/projects/SWERC2022/book/notebook/tex_code/main.tex" 1649803770 12150 422bf4cb674d3fedc578d7bff9779f2f ""
+  "/home/hugodemaret/projects/SWERC2022/book/notebook/tex_code/main.tex" 1649806774 12384 2c37d092dc048a5459e26d9aed31bd13 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1640600964 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1640600964 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1640600964 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -170,8 +172,8 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1640600964 39911 2da6c67557ec033436fe5418a70a8a61 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1641566817 4240959 a62b166954e270972a866c6bf49abd0b ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1641566813 2920111 ffd23b2a6d2b7396a598d828c50a1144 ""
-  "main.aux" 1649803771 10591 1be3c554c8aaa4c169f1acde2d3662aa "pdflatex"
-  "main.tex" 1649803770 12150 422bf4cb674d3fedc578d7bff9779f2f ""
+  "main.aux" 1649806775 10938 21ca9a42324e10e15168574c49276978 "pdflatex"
+  "main.tex" 1649806774 12384 2c37d092dc048a5459e26d9aed31bd13 ""
   (generated)
   "main.aux"
   "main.log"
