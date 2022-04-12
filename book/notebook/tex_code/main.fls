@@ -520,9 +520,15 @@ INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT ../code/string/anagramme.py
-INPUT ../code/string/anagramme.py
+INPUT ../code/cpp/vector.cpp
+INPUT ../code/cpp/vector.cpp
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
+INPUT ../code/cpp/vector.cpp
+INPUT ../code/cpp/vector.cpp
+INPUT ../code/cpp/vector.cpp
+INPUT ../code/cpp/vector.cpp
+INPUT ../code/string/anagramme.py
+INPUT ../code/string/anagramme.py
 INPUT ../code/string/anagramme.py
 INPUT ../code/string/anagramme.py
 INPUT ../code/string/anagramme.py
