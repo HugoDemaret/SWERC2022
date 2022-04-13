@@ -150,13 +150,14 @@
         \subsection{Enveloppe convexe}
             Complexité : $\mathcal{O}(n \log(n))$
             {\scriptsize\lstinputlisting{../code/points/jarvismarch.py}}
+        \subsection{Points les plus proches}
+            {\scriptsize\lstinputlisting{../code/ensembles/closest_points.py}}
         \subsection{Aire d'un polygone}
         \textit{Uniquement pour les polygones simples. Réduire à des composantes simples sinon.}
         Voir partie Mathématiques.
         {\scriptsize\lstinputlisting{../code/points/polygonearea.py}}
         \subsection{Polygone simple}
         {\scriptsize\lstinputlisting{../code/points/simple_polygon.py}}
-        \subsection{Paire de points les plus proches}
     \section{Ensembles}
         \subsection{Rendu de monnaie}
         Problème NP-Complet.
@@ -165,8 +166,6 @@
         Problème NP-Complet.
         {\scriptsize\lstinputlisting{../code/ensembles/knapsack.py}}
         \subsection{k-somme}
-        \subsection{Points les plus proches}
-        {\scriptsize\lstinputlisting{../code/ensembles/closest_points.py}}
         \subsection{Valeurs les plus proches}
         {\scriptsize\lstinputlisting{../code/ensembles/closest_values.py}}
     \section{Calculs}
@@ -182,11 +181,20 @@
         {\scriptsize\lstinputlisting{../code/calculs/prime.py}}
     \section{Mathématiques}
         \subsection{Mesure}
-        Distance définition :
-        \subsubsection{Distance de Manhattan}
-        $\delta(a,b) = \lvert x_b-x_a \rvert + \lvert y_b-y_a \rvert$
+            \subsubsection{Distance}
+            Définition : 
+            \begin{itemize}
+                \item $\delta(x,y) \geq 0, \delta(x,y) = 0$ ssi $x=y$
+                \item $\delta(x,y) = \delta(y,x)$ (Symétrique)
+                \item Satisfait l'inégalité triangulaire : $\delta(x,z) \leq \delta(x,y) + \delta(y,z)$
+            \end{itemize}
+            Distance de Manhattan :
+            $\delta(a,b) = \lvert x_b-x_a \rvert + \lvert y_b-y_a \rvert$
         \subsection{Géométrie}
             \subsubsection{3D}
+            Caractéristique d'Euler $\chi$ : \\
+            $\chi = s-a+f$, si $\chi = 2$ alors le polyhèdre est de rang 0 (pas de trou)\\
+            Formule usuelles :
             \begin{itemize}
                 \item Sphère : Volume : $\frac{4}{3}\pi r^{3}$ | Surface : $4\pi r^{2}$
                 \item Cylindre droit : Volume $\pi r^{2} h$ | Surface : $2\pi r( r + h)$
