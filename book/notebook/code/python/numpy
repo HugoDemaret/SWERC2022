@@ -1,0 +1,85 @@
+import numpy as np
+#creation array
+a = np.array([1,2,3])
+b = np.array([(1.5,2,3), (4,5,6)], dtype = float)
+c = np.array([[(1.5,2,3), (4,5,6)],[(3,2,1), (4,5,6)]], dtype = float)
+#Fonction de bases
+np.zeros((3,4)) #Create an array of zeros
+np.ones((2,3,4),dtype=np.int16) #Create an array of ones
+d = np.arange(10,25,5)#Create an array of evenly spaced values (step value)
+np.linspace(0,2,9) #Create an array of evenlyspaced values (number of samples)
+e = np.full((2,2),7)#Create a constant array
+f = np.eye(2) #Create a 2X2 identity matrix
+np.random.random((2,2)) #Create an array with random values
+np.empty((3,2)) #Create an empty array
+#Aide
+np.info(np.ndarray.dtype)
+#Informations sur l'array
+a.shape #Array dimensions
+len(a)#Length of array
+b.ndim #Number of array dimensions
+e.size #Number of array elements
+b.dtype  #Data type of array elements
+b.dtype.name  #Name of data type
+b.astype(int) #Convert an array to a different type
+#Datatype
+np.int64 #Signed 64-bit integer types
+np.float32 #Standard double-precision floating point
+np.complex #Complex numbers represented by 128 floats
+np.bool  #Boolean type storing TRUE and FALSE values
+np.object #Python object type
+np.string_ #Fixed-length string type
+np.unicode_ #Fixed-length unicode type
+#Maths
+#operations arithmetiques
+g = a - b #Subtraction
+np.subtract(a,b) #Subtraction
+b + a #Addition 
+np.add(b,a) #Addition 
+a/b #Division 
+np.divide(a,b) #Division 
+a * b #Multiplication 
+np.multiply(a,b) #Multiplication 
+np.exp(b) #Exponentiation
+np.sqrt(b) #Square root
+np.sin(a)  #Print sines of an array
+np.cos(b) #Elementwise cosine
+np.log(a)#Elementwise natural logarithm
+e.dot(f) #Dot product 
+#Comparaisons
+a == b #Elementwise comparison
+a< 2 #Elementwise comparison
+np.array_equal(a, b) #Arraywise comparison
+#Copies
+h = a.view()#Create a view of the array with the same data
+np.copy(a) #Create a copy of the array
+h = a.copy() #Create a deep copy of the array
+#Tri
+a.sort() #Sort an array
+c.sort(axis=0) #Sort the elements of an array's axis
+#Manipulation
+#Transposee
+i = np.transpose(b) #Permute array dimensions
+i.T #Permute array dimensions
+#Changer la forme
+b.ravel() #Flatten the array
+#Modifier des elements
+h.resize((2,6)) #Return a new arraywith shape(2,6)
+np.append(h,g) #Append items to an array
+np.insert(a,1,5)  #Insert items in an array
+np.delete(a,[1])  #Delete items from an array
+#Combiner les array
+np.concatenate((a,d),axis=0) #Concatenate arrays
+np.vstack((a,b)) #Stack arrays vertically(row wise)
+np.r_[e,f] #Stack arrays vertically(row wise)
+np.hstack((e,f)) #Stack arrays horizontally(column wise)
+np.column_stack((a,d)) #Create stacked column wise arrays
+np.c_[a,d] #Create stacked column wise arrays
+#Splitter les array
+np.hsplit(a,3) #Split the array horizontally at the 3rd index
+np.vsplit(c,2) #Split the array vertically at the 2nd index
+#Statistics and probabilities
+np.std(my_array) #ecart type
+my_array.corrcoef() #coefficient de correlation
+np.median(my_array) #mediane
+np.mean(my_array) #moyenne empirique

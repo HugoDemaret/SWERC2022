@@ -91,6 +91,7 @@
     \end{center}
 \end{titlepage}
     \section{Configuration}
+    %$\mathcal{O}()$
         \subsection{C/C++}
             \subsubsection{Header}
             {\scriptsize\lstinputlisting{../code/cpp/header.cpp}}
@@ -100,45 +101,95 @@
             {\scriptsize\lstinputlisting{../code/cpp/deque.cpp}}
             \subsubsection{Stack}
             {\scriptsize\lstinputlisting{../code/cpp/stack.cpp}}
+            \subsubsection{Tri}
+            {\scriptsize\lstinputlisting{../code/cpp/sort.cpp}}
+        \subsection{Python}
+            \subsubsection{Numpy}
+            {\scriptsize\lstinputlisting{../code/python/numpy}}
     \section{Chaînes de caractères}
-    \section{Séquences}
         \subsection{Anagramme}
-        {\scriptsize\lstinputlisting{../code/string/anagramme.py}}
+            $\mathcal{O}(nk \log(k))$ en moyenne
+            {\scriptsize\lstinputlisting{../code/string/anagramme.py}}
+        \subsection{Plus long palindrome d'une chaîne}
+        $\mathcal{O}(n)$
+        {\scriptsize\lstinputlisting{../code/string/manacher.py}}
+    \section{Séquences}
         \subsection{Distance de Levenshtein}
+        $\mathcal{O}(nm)$
         {\scriptsize\lstinputlisting{../code/string/levenshtein.py}}
         \subsection{Plus grand facteur commun}
+        $\mathcal{O}(nm)$
         {\scriptsize\lstinputlisting{../code/string/longest_common_subsequence.py}}
+        \subsection{Plus longue sous-séquence croissante}
+        $\mathcal{O}(\lvert x \rvert \times \log(\lvert y \rvert))$
+        {\scriptsize\lstinputlisting{../code/string/longuest_increasing_subsequence.py}}
         \subsection{Rabin-Karp | Recherche d'un pattern}
+        $\mathcal{O}(len(s) + len(t))$ en temps amortit
         {\scriptsize\lstinputlisting{../code/string/rabin_karp.py}}
     \section{Parcours de graphes}
         \subsection{DFS - Depth First Search}
+        $\mathcal{O}(\lvert V \rvert  + \lvert E \rvert)$
         {\scriptsize\lstinputlisting{../code/graphes/dfs.py}}
         \subsection{BFS - Breadth First Search}
+        $\mathcal{O}(\lvert V \rvert  + \lvert E \rvert)$ (Liste adjacence) $\mathcal{O}(\lvert V \rvert ^2)$ (Matrice adjacence)
         {\scriptsize\lstinputlisting{../code/graphes/bfs.py}}
         \subsection{Topological Sort}
+        $\mathcal{O}(\lvert V \rvert  + \lvert E \rvert)$
         {\scriptsize\lstinputlisting{../code/graphes/topological_sort.py}}
         \subsection{Composantes connexes}
+        $\mathcal{O}(\lvert N \rvert  + \lvert E \rvert)$
         {\scriptsize\lstinputlisting{../code/graphes/connected_components.py}}
         \subsection{Composantes bi-connexe}
+        $\mathcal{O}(m \alpha(m,n))$ avec $\alpha(x,y)$ la réciproque de la fonction de Ackermann 
         {\scriptsize\lstinputlisting{../code/graphes/bi_connected_components.py}}
         \subsection{Composantes fortement connexe}
+            $\mathcal{O}(\lvert V \rvert  + \lvert E \rvert)$
             \subsubsection{Kosaraju}
             {\scriptsize\lstinputlisting{../code/graphes/kosaraju_dfs.py}}
         \subsection{2-SAT}
+        Complexité linéaire
         {\scriptsize\lstinputlisting{../code/graphes/two_sat.py}}
-        \subsection{Postier Chinois}
+        \subsection{Cycle le plus court}
+        Powergraph : $\mathcal{0}(n^3)$, Shortest Cycle : $\mathcal{O}(\lvert V \rvert  \times \lvert E \rvert)$ 
+        Path : $\mathcal{0}(V)$
+        {\scriptsize\lstinputlisting{../code/graphes/shortest_cycle.py}}
         \subsection{Chemin eulérien}
+            $\mathcal{O}(\lvert V \rvert  + \lvert E \rvert)$ (Pour les deux)
             \subsubsection{Dirigé}
             {\scriptsize\lstinputlisting{../code/graphes/eulerian_tour_directed.py}}
             \subsubsection{Non Dirigé}
             {\scriptsize\lstinputlisting{../code/graphes/eulerian_tour_undirected.py}}
         \subsection{Chemin le plus court}
             \subsubsection{Poids positif ou nul - Dijkstra}
+            $\mathcal{O}(\lvert V \rvert^2)$
             {\scriptsize\lstinputlisting{../code/graphes/dijkstra.py}}
             \subsubsection{Poids arbitraire - Bellman-Ford}
+            $\mathcal{O}(\lvert V \rvert  \times \lvert E \rvert)$
             {\scriptsize\lstinputlisting{../code/graphes/bellman_ford.py}}
             \subsubsection{Floyd-Warshall}
+            $\mathcal{O}(n^3)$
             {\scriptsize\lstinputlisting{../code/graphes/floyd_warshall.py}}
+        \subsection{Couplages}
+            \subsubsection{Bipartite Matching}
+            $\mathcal{O}(\lvert U \rvert  \times \lvert E \rvert)$
+            \subsubsection{Biparti avec poids - Kuhn-Munkres}
+            $\mathcal{O}(\lvert V \rvert ^3)$
+            {\scriptsize\lstinputlisting{../code/graphes/kuhn_munkres.py}}
+            \subsubsection{Biparti avec préférence - Gale-Shapley}
+            $\mathcal{O}(\lvert V \rvert ^2)$
+            {\scriptsize\lstinputlisting{../code/graphes/gale_shapley.py}}
+            \subsubsection{Couverture par sommet minimum}
+            $\mathcal{O}(\lvert U \rvert  \times \lvert E \rvert)$
+            {\scriptsize\lstinputlisting{../code/graphes/bipartite_vertex_cover.py}}
+        \subsection{Coupes \& Flots}
+            \subsection{Dilworth}
+            Complexité : comme Bipartite Matching\\
+            Le graphe doit être acyclique
+            {\scriptsize\lstinputlisting{../code/graphes/dilworth.py}}
+            %\subsubsection{Capacité bornées - Ford-Fulkerson}
+            %$\mathcal{O}(\lvert V \rvert  \times \lvert E \rvert \times C)$
+            %\subsubsection{Capacités arbitraire - Dinic}
+            %$\mathcal{O}(\lvert V \rvert^2  \times \lvert E \rvert)$
     \section{Points et polygones}
         \subsection{Points}
             \subsubsection{Points}
@@ -153,11 +204,23 @@
         \subsection{Points les plus proches}
             {\scriptsize\lstinputlisting{../code/ensembles/closest_points.py}}
         \subsection{Aire d'un polygone}
+        Complexité linéaire
         \textit{Uniquement pour les polygones simples. Réduire à des composantes simples sinon.}
         Voir partie Mathématiques.
         {\scriptsize\lstinputlisting{../code/points/polygonearea.py}}
         \subsection{Polygone simple}
+        $\mathcal{O}(n\log(n))$
         {\scriptsize\lstinputlisting{../code/points/simple_polygon.py}}
+        \subsection{Rectangle avec des points}
+        $\mathcal{O}(n^2)$\\
+        Combien de rectangles peut-on former dans un ensemble de points
+        {\scriptsize\lstinputlisting{../code/points/rectangle_from_points.py}}
+        \subsection{Plus grand rectangle dans un histogramme}
+        Complexité linéaire
+        {\scriptsize\lstinputlisting{../code/points/rectangle_from_histogram.py}}
+        \subsection{Rectangle sur une grille}
+        $\mathcal{O}(n)$
+        {\scriptsize\lstinputlisting{../code/points/rectangles_from_grid.py}}
     \section{Ensembles}
         \subsection{Rendu de monnaie}
         Problème NP-Complet.
@@ -166,8 +229,13 @@
         Problème NP-Complet.
         {\scriptsize\lstinputlisting{../code/ensembles/knapsack.py}}
         \subsection{k-somme}
+        $\mathcal{O}(nR)$
+        {\scriptsize\lstinputlisting{../code/ensembles/k_somme.py}}
         \subsection{Valeurs les plus proches}
         {\scriptsize\lstinputlisting{../code/ensembles/closest_values.py}}
+        \subsection{Union d'intervalles}
+        $\mathcal{O}(n \log(n))$
+        {\scriptsize\lstinputlisting{../code/ensembles/interval_union.py}}
     \section{Calculs}
         \subsection{PGCD}
         {\scriptsize\lstinputlisting{../code/calculs/pgcd.py}}
@@ -178,6 +246,8 @@
         \subsection{Inverse}
         {\scriptsize\lstinputlisting{../code/calculs/inverse.py}}
         \subsection{Nombres premiers}
+        Crible d'Eratosthène : $\mathcal{O}(n \log(\log(n)))$ \\
+        Gries Misra : $\mathcal{O}(n)$
         {\scriptsize\lstinputlisting{../code/calculs/prime.py}}
     \section{Mathématiques}
         \subsection{Mesure}
@@ -268,4 +338,47 @@
         L'objectif de cette méthode est de détecter des cycles. L'idée est de parcourir la liste chaînée
         avec deux pointeurs : un lent (tortoise) et un deux fois plus rapide (hare). Si les deux pointeurs
         s'intersectent, il y a un cycle.
+    \section{Expressions régulières}
+    \begin{center}
+        \begin{tabular}{| c | c |}
+        \hline
+         Utilité & Python \& C++\\ 
+         \hline
+         \hline
+         Tous les caractères & .  \\  
+         \hline
+         Début & $\widehat{}$  \\
+         \hline
+         Fin & \$  \\ 
+         \hline
+         Bordure du mot & \textbackslash b \\
+         \hline
+         non(Bordure) & \textbackslash B  \\
+         \hline
+         Opérateur "ou" & $\lvert$  \\ 
+         \hline
+         \hline
+         Un des caractères inclus & [abc] \\
+         \hline
+         Sauf les caractères inclus & [ $\widehat{}$ abc]  \\
+         \hline
+         Un des caractères dans l'intervalle & [a-z]  \\
+         \hline
+         Un des caractères dans les intervalles & [a-zA-Z]\\
+         \hline
+         \hline
+         $\geq 0$ & *  \\
+         \hline
+         $\geq 1$ & + \\
+         \hline
+         $\leq 1$ & ? \\
+         \hline
+         $n$ & ${n}$ \\
+         \hline
+         $\geq n$ & ${n,}$ \\
+         \hline
+         $\geq n$ ET $\leq m$ & ${n,m}$ \\
+         \hline
+        \end{tabular}
+        \end{center}
 \end{document}

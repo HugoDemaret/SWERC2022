@@ -1,5 +1,4 @@
 def eratosthene(n):
-    """O(n loglog n)"""
     P = [True] * n
     answ = [2]
     for i in range(3, n, 2):
@@ -9,13 +8,6 @@ def eratosthene(n):
                 P[j] = False
     return answ
 def gries_misra(n):
-    """Prime numbers by the sieve of Gries-Misra
-    Computes both the list of all prime numbers less than n,
-    and a table mapping every integer 2 < x < n to its smallest prime factor
-    :param n: positive integer
-    :returns: list of prime numbers, and list of prime factors
-    :complexity: O(n)
-    """
     primes = []
     factor = [0] * n
     for x in range(2, n):
