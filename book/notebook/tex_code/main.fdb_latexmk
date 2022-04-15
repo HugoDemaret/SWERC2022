@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1650049459 "/home/hugodemaret/projects/SWERC2022/book/notebook/tex_code/main.tex" "main.pdf" "main" 1650049460
+["pdflatex"] 1650049645 "/home/hugodemaret/projects/SWERC2022/book/notebook/tex_code/main.tex" "main.pdf" "main" 1650049645
   "../code/calculs/bezout.py" 1647899998 166 2f072a668b5e64d0c20c133afd49037e ""
   "../code/calculs/binom.py" 1649523737 231 19e79dab94f21551fc04632a38075db7 ""
   "../code/calculs/inverse.py" 1649523539 42 d0163dc18ea8954da5ac890b57778228 ""
@@ -52,7 +52,7 @@
   "../code/string/manacher.py" 1650044217 782 0fa1dff00b5b7f5f49e6adcce2516fc1 ""
   "../code/string/rabin_karp.py" 1649800822 2327 2c445abc40e6cbd5da980121b75a015c ""
   "../image/cover_image.png" 1647900155 56779 65d8d46a18f9bb8478ec06039c82f3d9 ""
-  "/home/hugodemaret/projects/SWERC2022/book/notebook/tex_code/main.tex" 1650049458 26361 432cbce0503abef1a9da35f60faa558f ""
+  "/home/hugodemaret/projects/SWERC2022/book/notebook/tex_code/main.tex" 1650049644 26360 d550ee773e00e54f70049790a8dc2445 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1640600964 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1640600964 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1640600964 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -195,8 +195,8 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1640600964 39911 2da6c67557ec033436fe5418a70a8a61 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1641566817 4240959 a62b166954e270972a866c6bf49abd0b ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1641566813 2920111 ffd23b2a6d2b7396a598d828c50a1144 ""
-  "main.aux" 1650049460 16225 73f16e7815c023308aeb88169ed3eda4 "pdflatex"
-  "main.tex" 1650049458 26361 432cbce0503abef1a9da35f60faa558f ""
+  "main.aux" 1650049645 16225 73f16e7815c023308aeb88169ed3eda4 "pdflatex"
+  "main.tex" 1650049644 26360 d550ee773e00e54f70049790a8dc2445 ""
   (generated)
   "main.aux"
   "main.log"
