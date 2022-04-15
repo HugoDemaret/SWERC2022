@@ -1,0 +1,28 @@
+Input : graph G(V,E) avec node start et node end
+Output : Chemin le moins couteux de start a end 
+ALGORITHME :
+Initialisation :
+    to_visit = {start}
+    visited = {}
+    g(start) = 0
+    h_cost(start) = heuristic_function(start, end)
+    f(start) = g(start) + h(start)
+While to_visit not empty:
+    m = noeud on top of to_visit with least f
+    if m == end :
+        return
+    remove m from to_visit
+    add m to visited
+    for each n in child(m):
+        if n in visited:
+            continue
+        cost = g(m) + distance(m,n)
+        if n in to_visit and cost<g(n):
+            remove n from to_visit if better path
+        if n in visited and cost<g(n):
+            remove n from visited
+        if n not in to_visit and n not in visited:
+            add n to to_visit
+            g(n) = cost
+            h(n) = heuristic_function(n,end)
+            f(n) = g(n) + h(n)

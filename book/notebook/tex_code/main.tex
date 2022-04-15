@@ -150,7 +150,7 @@
         Complexité linéaire
         {\scriptsize\lstinputlisting{../code/graphes/two_sat.py}}
         \subsection{Cycle le plus court}
-        Powergraph : $\mathcal{0}(n^3)$, Shortest Cycle : $\mathcal{O}(\lvert V \rvert  \times \lvert E \rvert)$ 
+        Powergraph : $\mathcal{O}(n^3)$, Shortest Cycle : $\mathcal{O}(\lvert V \rvert  \times \lvert E \rvert)$ 
         Path : $\mathcal{0}(V)$
         {\scriptsize\lstinputlisting{../code/graphes/shortest_cycle.py}}
         \subsection{Chemin eulérien}
@@ -169,9 +169,12 @@
             \subsubsection{Floyd-Warshall}
             $\mathcal{O}(n^3)$
             {\scriptsize\lstinputlisting{../code/graphes/floyd_warshall.py}}
+            \subsubsection{A* - Chemin le moins coûteux}
+            {\scriptsize\lstinputlisting{../code/graphes/a_star.txt}}
         \subsection{Couplages}
             \subsubsection{Bipartite Matching}
             $\mathcal{O}(\lvert U \rvert  \times \lvert E \rvert)$
+            {\scriptsize\lstinputlisting{../code/graphes/bipartite_matching.py}}
             \subsubsection{Biparti avec poids - Kuhn-Munkres}
             $\mathcal{O}(\lvert V \rvert ^3)$
             {\scriptsize\lstinputlisting{../code/graphes/kuhn_munkres.py}}
@@ -283,6 +286,9 @@
                 \item Losange : Aire : $\frac{D\times d}{2}$
                 \item Trapèze : Aire : $\frac{(B+b)\times h}{2}$
                 \item Parralélogramme : Aire : $B\times h$
+                \item Ellipse : Aire : $a \times b \times \pi$ \\
+                Périmètre approximation : \\
+                $p = \pi (a+b) \left( 1 + \frac{1}{4}h + \frac{1}{64}h^2 + \frac{1}{256}h^3 + ...\right)$
             \end{itemize}
             \subsubsection{Points entiers dans un polygone}
                 Sur le contour : \\
@@ -327,6 +333,12 @@
             Alors l'espérance de $S_n$ est $n\mu$ et l'écart-type est $\sigma \sqrt{n}$\\
             Quand $n$ est assez grand, la Loi Normale $\mathcal{N}(n\mu,n\sigma^{2})$ est une bonne approximation de $S_n$\\
             On pose $\overline{X_n} = \frac{S_n}{n}$ et $Z_n = \frac{S_n-n\mu}{\sigma \sqrt{n}} = \frac{\overline{X_n}-\mu}{\sigma / \sqrt{n}}$
+        \subsection{Analyse}
+                \subsubsection{Sommes}
+                $\sum_{k=0}^{n} k = \frac{n(n+1)}{2}$ | $\sum_{k=0}^{n} k^2 = \frac{n(n+1)(2n+1)}{6}$
+                | $\sum_{k=0}^{n} k^3 = \left(\frac{n(n+1)}{2}\right)^2$
+                \subsubsection{Dérivée et primitives usuelles}
+                    \includegraphics[scale=0.75]{../image/tableau.png}
     \section{Techniques de programmation}
         \subsection{Programmation dynamique}
         Résoudre le problème en le divisant en sous-problèmes, résoudre les sous-problèmes, stocker les résultats
@@ -373,11 +385,11 @@
          \hline
          $\leq 1$ & ? \\
          \hline
-         $n$ & ${n}$ \\
+         $n$ & $\{n\}$ \\
          \hline
-         $\geq n$ & ${n,}$ \\
+         $\geq n$ & $\{n,\}$ \\
          \hline
-         $\geq n$ ET $\leq m$ & ${n,m}$ \\
+         $\geq n$ ET $\leq m$ & $\{n,m\}$ \\
          \hline
         \end{tabular}
         \end{center}
