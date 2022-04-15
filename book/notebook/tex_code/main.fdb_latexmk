@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1650029839 "/Users/hugodemaret/cours/SWERC2022/book/notebook/tex_code/main.tex" "/Users/hugodemaret/cours/SWERC2022/book/notebook/tex_code/main.pdf" "main" 1650029841
+["pdflatex"] 1650044138 "/Users/hugodemaret/cours/SWERC2022/book/notebook/tex_code/main.tex" "/Users/hugodemaret/cours/SWERC2022/book/notebook/tex_code/main.pdf" "main" 1650044139
   "../code/calculs/bezout.py" 1647695007 166 2f072a668b5e64d0c20c133afd49037e ""
   "../code/calculs/binom.py" 1649678588 231 19e79dab94f21551fc04632a38075db7 ""
   "../code/calculs/inverse.py" 1649678588 42 d0163dc18ea8954da5ac890b57778228 ""
@@ -53,8 +53,8 @@
   "../code/string/rabin_karp.py" 1649836056 2327 2c445abc40e6cbd5da980121b75a015c ""
   "../image/cover_image.png" 1648035147 56779 65d8d46a18f9bb8478ec06039c82f3d9 ""
   "../image/tableau.png" 1650029690 91222 daa6b1ba795cd7bfaabe0374aa0f0d65 ""
-  "/Users/hugodemaret/cours/SWERC2022/book/notebook/tex_code/main.aux" 1650029841 16117 73615a162052eb071e475fed59f6ff05 ""
-  "/Users/hugodemaret/cours/SWERC2022/book/notebook/tex_code/main.tex" 1650029839 19158 4a8e6a0d3b39a61071d0fb679d56ee4c ""
+  "/Users/hugodemaret/cours/SWERC2022/book/notebook/tex_code/main.aux" 1650044139 16117 73615a162052eb071e475fed59f6ff05 ""
+  "/Users/hugodemaret/cours/SWERC2022/book/notebook/tex_code/main.tex" 1650044137 19158 4a8e6a0d3b39a61071d0fb679d56ee4c ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -199,11 +199,11 @@
   "/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1616695603 5169178 a2ce6e2d73f603b690db6777d06dbccb ""
   "/usr/local/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1632726562 2724744 a0e17deef1717f5cc42e98e4914400c9 ""
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
-  "main.aux" 1650029841 16117 73615a162052eb071e475fed59f6ff05 "pdflatex"
-  "main.tex" 1650029839 19158 4a8e6a0d3b39a61071d0fb679d56ee4c ""
+  "main.aux" 1650044139 16117 73615a162052eb071e475fed59f6ff05 "pdflatex"
+  "main.tex" 1650044137 19158 4a8e6a0d3b39a61071d0fb679d56ee4c ""
   (generated)
-  "/Users/hugodemaret/cours/SWERC2022/book/notebook/tex_code/main.pdf"
-  "main.aux"
-  "main.pdf"
-  "main.log"
   "/Users/hugodemaret/cours/SWERC2022/book/notebook/tex_code/main.log"
+  "main.aux"
+  "main.log"
+  "main.pdf"
+  "/Users/hugodemaret/cours/SWERC2022/book/notebook/tex_code/main.pdf"
