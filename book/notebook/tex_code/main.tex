@@ -34,8 +34,8 @@
 	breaklines=true
 }
 \geometry{
-	left=15mm,
-	right=7mm,
+	left=25mm,
+	right=25mm,
 	top=7mm,
 	bottom=15mm
 }
@@ -67,7 +67,7 @@
         \LARGE
         \textbf{Ensemble d'algorithmes et techniques de programmation}\\
         \textit{Et quelques notions de Mathématiques}
-        \vspace*{3.cm}
+        \vspace*{2.5cm}
 
         
         \begin{tikzpicture}
@@ -81,7 +81,7 @@
 
         \includegraphics[scale=0.05]{../image/cover_image.png}
         \Large
-        \vspace{2cm}
+        \vspace{1.5cm}
 
         \textbf{Université Paris Cité}\\
         UFR de Mathématiques-Informatique
@@ -335,10 +335,132 @@
             On pose $\overline{X_n} = \frac{S_n}{n}$ et $Z_n = \frac{S_n-n\mu}{\sigma \sqrt{n}} = \frac{\overline{X_n}-\mu}{\sigma / \sqrt{n}}$
         \subsection{Analyse}
                 \subsubsection{Sommes}
-                $\sum_{k=0}^{n} k = \frac{n(n+1)}{2}$ | $\sum_{k=0}^{n} k^2 = \frac{n(n+1)(2n+1)}{6}$
-                | $\sum_{k=0}^{n} k^3 = \left(\frac{n(n+1)}{2}\right)^2$
+                \begin{align}
+                    \sum_{k=0}^n a^k &= \frac{1-a^{n+1}}{1-a}, a \ne 1\\
+                    \sum_{k=0}^n ka^k &= \frac{a}{(1-a)^2}[1-(n+1)a^n + na^{n+1}] , a\ne 1\\
+                    \sum_{k=0}^n k^2a^k &= \frac{a}{(1-a)^3}[(1+a)-(n+1)^2a^n+(2n^2+2n-1)a^{n+1}-n^2a^{n+2}], a\ne 1\\
+                    \sum_{k=0}^{n} k &= \frac{n(n+1)}{2}\\
+                    \sum_{k=0}^{n} k^2 &= \frac{n(n+1)(2n+1)}{6}\\
+                    \sum_{k=0}^{n} k^3 &= \left(\frac{n(n+1)}{2}\right)^2\\
+                    \sum_{k=0}^{n} k^3 &= \frac{n}{30}(n+1)(2n+1)(3n^2+3n-1)
+                \end{align}
                 \subsubsection{Dérivée et primitives usuelles}
-                    \includegraphics[scale=0.75]{../image/tableau.png}
+                    %\includegraphics[scale=0.5]{../image/tableau.png}
+                    \begin{center}
+                        \renewcommand{\arraystretch}{1.5}
+                        \begin{tabular}{|c|c|c|}
+                            \hline
+                            \textbf{Fonction} & \textbf{Domaine de dérivabilité} & \textbf{Dérivée}\\
+                            \hline 
+                            \hline
+                            %$ $ & $ $ & $ $\\ 
+                            $\ln(x)$ & $ \mathbb{R}^{+*} $ & $ \frac{1}{x}$\\
+                            \hline 
+                            $e^x$ & $ \mathbb{R}$ & $ e^{x}$\\ 
+                            \hline
+                            $\frac{1}{x}$ & $ \mathbb{R}^*$ & $ - \frac{1}{x^2} $\\ 
+                            \hline
+                            $ \sqrt{x}$ & $ \mathbb{R}^{+*}$ & $ \frac{1}{2\sqrt{x}}$\\ 
+                            \hline
+                            $ x^\alpha, \alpha \in \mathbb{R}$ & $ \mathbb{R}^{+*}$ & $ \alpha  x^{\alpha-1} $\\ 
+                            \hline
+                            $ \cos(x)$ & $ \mathbb{R}$ & $ -\sin(x)$\\ 
+                            \hline
+                            $ \sin(x)$ & $ \mathbb{R}$ & $ \cos(x) $\\ 
+                            \hline
+                            $ \tan(x)$ & $ -]-\frac{\pi}{2} +k\pi ; \frac{\pi}{2} + k\pi[, k \in \mathbb{Z}$ & $ 1+\tan^2(x) = \frac{1}{\cos^2(x)}$\\ 
+                            \hline
+                            $ \arccos(x)$ & $ ]-1;1[$ & $ \frac{-1}{\sqrt{1-x^2}}$\\ 
+                            \hline
+                            $ \arcsin(x)$ & $ ]-1;1[$ & $ \frac{1}{\sqrt{1-x^2}}$\\ 
+                            \hline
+                            $ \arctan(x)$ & $ \mathbb{R}$ & $ \frac{1}{1+x^2}$\\
+                            $ \cosh(x)$ & $ \mathbb{R}$ & $ \sinh(x)$\\
+                            \hline 
+                            $ \sinh(x)$ & $\mathbb{R} $ & $ \cosh(x)$\\
+                            \hline
+                            $ \tanh(x)$ & $ \mathbb{R}$ & $ \frac{1}{\cosh^2(x)} = 1 - \tanh^2(x)$\\
+                            \hline \hline
+                            \textbf{Fonction} & \textbf{Intervalle d'intégration} & \textbf{Primitive}\\
+                            \hline \hline
+                            $ (x-a)^n, n\in \mathbb{N}, a\in \mathbb{R}$ & $ \mathbb{R}$ & $ \frac{1}{n+1}(x-a)^{n+1})$\\
+                            \hline 
+                            $ \frac{1}{x-a}, a\in \mathbb{R}$ & $ ]-\infty;a[\cup]a;+\infty[$ & $ \ln(\lvert x-a\rvert)$\\ 
+                            \hline
+                            $ \frac{1}{(x-a)^n}, a\in \mathbb{R}, n \geq 2$ & $ ]-\infty;a[\cup]a;+\infty[$ & $ -\frac{1}{(n-1)(x-a)^{n-1}}$\\ 
+                            \hline
+                            $ \cos(ax), a \in \mathbb{R}^*$ & $ \mathbb{R}$ & $ \frac{1}{a}\sin(ax)$\\ 
+                            \hline
+                            $ \sin(ax), a \in \mathbb{R}^*$ & $ \mathbb{R}$ & $ -\frac{1}{a}\cos(ax)$\\ 
+                            \hline
+                            $ \tan(x)$ & $ -]-\frac{\pi}{2} +k\pi ; \frac{\pi}{2} + k\pi[, k \in \mathbb{Z}$ & $ -\ln(\lvert \cos(x) \rvert)$\\ 
+                            \hline
+                            $ \ln(x)$ & $ \mathbb{R}^{+*}$ & $ x\ln(x) -x$\\ 
+                            \hline
+                            $ e^{ax}, a \in \mathbb{R}^*$ & $ \mathbb{R}$ & $ \frac{1}{a}e^{ax} $\\ 
+                            \hline
+                            $ (x-a)^\alpha , a \in \mathbb{R}, \alpha \in \mathbb{R} \setminus \{ -1\}$ & $ ]a;+\infty[$ & $ \frac{1}{\alpha + 1} (x-a)^{\alpha+1} $\\ 
+                            \hline
+                            $ a^x, a > 0$ & $ \mathbb{R}$ & $ \frac{1}{\ln(a)}a^x$\\ 
+                            \hline
+                            $ \frac{1}{x^2+1}$ & $ \mathbb{R}$ & $ \arctan(x)$\\
+                            \hline
+                            $ \sqrt{x-a}, a \in \mathbb{R}$ & $ ]a;+\infty[ $ & $ \frac{3}{2}(x-a)^{\frac{3}{2}}$\\
+                            \hline
+                            $ \frac{1}{\sqrt{x-a}}, a \in \mathbb{R}$ & $ ]a;+\infty[ $ & $ 2\sqrt{x-a}$\\
+                            \hline
+                            $ \frac{1}{1-x^2}$ & $ ]-1;1[$ & $ \arcsin(x)$\\
+                            \hline
+                            $ \cosh(x)$ & $ \mathbb{R}$ & $ \sinh(x)$\\
+                            \hline 
+                            $ \sinh(x)$ & $ \mathbb{R}$ & $ \cosh(x)$\\
+                            \hline
+                            $ \tanh(x)$ & $ \mathbb{R} $ & $ \ln(\cosh(x))$\\
+                            \hline 
+                        \end{tabular}
+                    \end{center}
+                    \begin{center}
+                        \renewcommand{\arraystretch}{1.5}
+                        \begin{tabular}{|c|c|}
+                            \hline
+                            \textbf{Opération} & \textbf{Dérivée} \\
+                            \hline 
+                            \hline
+                            $f+g$ & $f'+g'$\\
+                            \hline
+                            $f \cdot g$ & $f' \cdot g + f \cdot g'$\\
+                            \hline
+                            $\frac{f}{g} $ & $\frac{f' \cdot g - f \cdot g'}{g^2}$\\
+                            \hline
+                            $g \circ f$ & $f'\times g' \circ f$\\
+                            \hline
+                            $\frac{1}{u}$ & $-\frac{u'}{u^2}$\\
+                            \hline
+                            $u^n$ & $nu'u^{n-1}$\\
+                            \hline
+                            $\sqrt{u}$ & $\frac{u'}{2\sqrt{u}}$\\
+                            \hline
+                            $e^{u}$ & $u'e^{u}$\\
+                            \hline
+                            $\ln(u)$ & $\frac{u'}{u}$\\
+                            \hline
+                            $\sin(u)$ & $u'\cos(u)$\\
+                            \hline
+                            $\cos(u)$ & $-u'\sin(u)$\\
+                            \hline
+                        \end{tabular}
+                    \end{center}
+            \subsection{Trigonométrie}
+                    Soient $a,b,x \in \mathbb{R}$ : \\
+                    \begin{align}
+                        \cos^2(x) + \sin^2(x) &= 1\\
+                        \cos(a+b)&=\cos(a)\cos(b)-\sin(a)\sin(b)\\
+                        \sin(a+b)&=\sin(a)\sin(b)+\cos(a)\cos(b)\\
+                        \cos(2x) &= 2 \cos^2(x) - 1 = 1-2\sin^2(x)\\
+                        \cos^2(x) &= \frac{1+\cos(2x)}{2}\\
+                        \sin(2x) &= 2\sin(x)\cos(x)\\
+                        \sin^2(x)&= \frac{1-\cos(2x)}{2}
+                    \end{align}
     \section{Techniques de programmation}
         \subsection{Programmation dynamique}
         Résoudre le problème en le divisant en sous-problèmes, résoudre les sous-problèmes, stocker les résultats
@@ -352,6 +474,7 @@
         s'intersectent, il y a un cycle.
     \section{Expressions régulières}
     \begin{center}
+        \renewcommand{\arraystretch}{1.5}
         \begin{tabular}{| c | c |}
         \hline
          Utilité & Python \& C++\\ 
