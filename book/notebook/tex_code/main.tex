@@ -239,6 +239,9 @@
         \subsection{Union d'intervalles}
         $\mathcal{O}(n \log(n))$
         {\scriptsize\lstinputlisting{../code/ensembles/interval_union.py}}
+        \subsection{MiniMax}
+        $\mathcal{O}(b^m)$
+        {\scriptsize\lstinputlisting{../code/ensembles/minimax.txt}}
     \section{Calculs}
         \subsection{PGCD}
         {\scriptsize\lstinputlisting{../code/calculs/pgcd.py}}
@@ -381,7 +384,13 @@
                             $ \sinh(x)$ & $\mathbb{R} $ & $ \cosh(x)$\\
                             \hline
                             $ \tanh(x)$ & $ \mathbb{R}$ & $ \frac{1}{\cosh^2(x)} = 1 - \tanh^2(x)$\\
-                            \hline \hline
+                            \hline
+                        \end{tabular}
+                    \end{center}
+                    \begin{center}
+                        \renewcommand{\arraystretch}{1.5}
+                        \begin{tabular}{|c|c|c|}
+                            \hline
                             \textbf{Fonction} & \textbf{Intervalle d'intégration} & \textbf{Primitive}\\
                             \hline \hline
                             $ (x-a)^n, n\in \mathbb{N}, a\in \mathbb{R}$ & $ \mathbb{R}$ & $ \frac{1}{n+1}(x-a)^{n+1}$\\

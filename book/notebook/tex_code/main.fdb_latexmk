@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1650049697 "/home/hugodemaret/projects/SWERC2022/book/notebook/tex_code/main.tex" "main.pdf" "main" 1650049698
+["pdflatex"] 1650050482 "/home/hugodemaret/projects/SWERC2022/book/notebook/tex_code/main.tex" "main.pdf" "main" 1650050483
   "../code/calculs/bezout.py" 1647899998 166 2f072a668b5e64d0c20c133afd49037e ""
   "../code/calculs/binom.py" 1649523737 231 19e79dab94f21551fc04632a38075db7 ""
   "../code/calculs/inverse.py" 1649523539 42 d0163dc18ea8954da5ac890b57778228 ""
@@ -16,6 +16,7 @@
   "../code/ensembles/interval_union.py" 1650044217 414 4b8f0a0deae62fc59b818003ee215c47 ""
   "../code/ensembles/k_somme.py" 1650044217 165 f89efc9e1ef000edcd6169f5f07cab57 ""
   "../code/ensembles/knapsack.py" 1647899998 764 cebc141bfcbb0ca1049e946c58841c72 ""
+  "../code/ensembles/minimax.txt" 1650050326 499 965f47b51245b08ba2d31eea420a69cb ""
   "../code/graphes/a_star.txt" 1650044217 877 83d4f4b024c18ca92b370af038361c7c ""
   "../code/graphes/bellman_ford.py" 1649524380 762 ddc9596846f9082c7b7b9047453ad586 ""
   "../code/graphes/bfs.py" 1647899998 514 54034271a331333f028eb6deb6aea483 ""
@@ -52,7 +53,7 @@
   "../code/string/manacher.py" 1650044217 782 0fa1dff00b5b7f5f49e6adcce2516fc1 ""
   "../code/string/rabin_karp.py" 1649800822 2327 2c445abc40e6cbd5da980121b75a015c ""
   "../image/cover_image.png" 1647900155 56779 65d8d46a18f9bb8478ec06039c82f3d9 ""
-  "/home/hugodemaret/projects/SWERC2022/book/notebook/tex_code/main.tex" 1650049696 26395 72486755fa5f5b4f4d4008be298a5c1e ""
+  "/home/hugodemaret/projects/SWERC2022/book/notebook/tex_code/main.tex" 1650050481 26761 4027543ec559e65798aa7a0e4c794102 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1640600964 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1640600964 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1640600964 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -195,8 +196,8 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1640600964 39911 2da6c67557ec033436fe5418a70a8a61 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1641566817 4240959 a62b166954e270972a866c6bf49abd0b ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1641566813 2920111 ffd23b2a6d2b7396a598d828c50a1144 ""
-  "main.aux" 1650049698 16225 73f16e7815c023308aeb88169ed3eda4 "pdflatex"
-  "main.tex" 1650049696 26395 72486755fa5f5b4f4d4008be298a5c1e ""
+  "main.aux" 1650050483 16432 19ea11ba3815aa580b61bd733bd36084 "pdflatex"
+  "main.tex" 1650050481 26761 4027543ec559e65798aa7a0e4c794102 ""
   (generated)
   "main.aux"
   "main.log"

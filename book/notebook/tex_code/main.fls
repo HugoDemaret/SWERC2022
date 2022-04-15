@@ -822,6 +822,12 @@ INPUT ../code/ensembles/interval_union.py
 INPUT ../code/ensembles/interval_union.py
 INPUT ../code/ensembles/interval_union.py
 INPUT ../code/ensembles/interval_union.py
+INPUT ../code/ensembles/minimax.txt
+INPUT ../code/ensembles/minimax.txt
+INPUT ../code/ensembles/minimax.txt
+INPUT ../code/ensembles/minimax.txt
+INPUT ../code/ensembles/minimax.txt
+INPUT ../code/ensembles/minimax.txt
 INPUT ../code/calculs/pgcd.py
 INPUT ../code/calculs/pgcd.py
 INPUT ../code/calculs/pgcd.py
